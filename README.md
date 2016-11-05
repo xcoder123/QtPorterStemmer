@@ -9,13 +9,9 @@ https://dspace.lboro.ac.uk/dspace-jspui/bitstream/2134/7433/2/360860.pdf
 
 Even though I have reimplemented English Porter Stemmer, for english and some other languages it is advisable to use snowball library
 
-# Latvian
-Projekta mērķis ir ātri pārrakstīt Dr. Kārļa Krēsliņa Portera modificēto algoritmu uz Qt platformas
-https://dspace.lboro.ac.uk/dspace-jspui/bitstream/2134/7433/2/360860.pdf
+More projects on my blog: http://morf.lv
 
-Lai arī es esmu pārrakstījis orģinālo Porter Stemmer algoritmu uz Qt platformas, ieteicams angļu valodai tomēr lietot snowball bibliotēku
-
-# Usage
+## Usage
 
 You have to classes available ENPorterStemmer and LVPorterStemmer, which are porter stemmer for english and latvian respectivly
 
@@ -30,4 +26,27 @@ And Latvian porter stemmer can be used like this:
 
 
 
-More projects on my blog: http://morf.lv
+
+
+# Latvian
+Projekta mērķis ir ātri pārrakstīt Dr. Kārļa Krēsliņa Portera modificēto algoritmu uz Qt platformas
+https://dspace.lboro.ac.uk/dspace-jspui/bitstream/2134/7433/2/360860.pdf
+
+Lai arī es esmu pārrakstījis orģinālo Porter Stemmer algoritmu uz Qt platformas, ieteicams angļu valodai tomēr lietot snowball bibliotēku
+
+Mans blogs: http://morf.lv
+
+## Pielietojums
+
+Tev ir pieejamas divas klases ENPorterStemmer un LVPorterStemmer, respektīvi "stemeris" priekš Angļu valodas un Latviešu valodas
+
+Angļu Portera Stemera klasi var lietot šādi:
+`ENPorterStemmer::stem("driving");`
+
+Un Latvieša šādi:
+`LVPorterStemmer::stem("reliģija");`
+
+
+**stem()** funkcijas abās klasēs ir statiskas. Tā kā nav nepieciešams izveidot objektu.
+
+
