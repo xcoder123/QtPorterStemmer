@@ -50,3 +50,6 @@ Un Latvieša šādi:
 **stem()** funkcijas abās klasēs ir statiskas. Tā kā nav nepieciešams izveidot objektu.
 
 
+![screenshot_en](https://cloud.githubusercontent.com/assets/7244389/20033144/1bb25da2-a392-11e6-9bfb-bf731a3cb630.png)
+![screenshot_lv](https://cloud.githubusercontent.com/assets/7244389/20033143/1bad10c2-a392-11e6-9f05-3e454fc88593.png)
+
